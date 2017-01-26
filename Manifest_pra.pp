@@ -1,6 +1,8 @@
 service { "tomcat":
-    ensure     => installed,
+    ensure     => running,
     enable     => true,
     hasrestart => true,
     hasstatus  => true,
     # pattern    => 'tominstalled
+	
+	}
